@@ -1,0 +1,29 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "extends": ["ultracite"],
+  "linter": {
+    "rules": {
+      "a11y": {
+        "noSvgWithoutTitle": "off"
+      },
+      "suspicious": {
+        "noArrayIndexKey": "off",
+        "useAwait": "off"
+      },
+      "nursery": {
+        "noShadow": "off",
+        "useConsistentTypeDefinitions": "off"
+      },
+      "style": {
+        "useConsistentArrayType": "off",
+        "noMagicNumbers": "off",
+        "useNamingConvention": "off",
+        "noNonNullAssertion": "off"
+      },
+      "performance": {
+        "noNamespaceImport": "off",
+        "noBarrelFile": "off"
+      }
+    }
+  }
+}
