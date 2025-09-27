@@ -15,7 +15,7 @@
   "scripts": {
     "build": "medusa build && ln -s .medusa/server/public/ public",
     "seed": "medusa exec ./src/scripts/seed.ts",
-    "start": "medusa start",
+    "start": "NODE_ENV=production medusa start",
     "dev": "medusa develop",
     "lint": "biome check",
     "format": "biome format --write",
