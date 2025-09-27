@@ -14,9 +14,9 @@
     "ultracite": "5.4.5"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "pnpm@10.15.1",
   "workspaces": [
     "apps/*",
     "packages/*"

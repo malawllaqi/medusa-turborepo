@@ -28,8 +28,12 @@
   "dependencies": {
     "@medusajs/admin-sdk": "2.10.3",
     "@medusajs/cli": "2.10.3",
+    "@medusajs/dashboard": "^2.10.3",
+    "@medusajs/draft-order": "^2.10.3",
     "@medusajs/framework": "2.10.3",
+    "@medusajs/icons": "^2.10.3",
     "@medusajs/medusa": "2.10.3",
+    "@medusajs/ui": "^4.0.23",
     "@mikro-orm/core": "6.4.3",
     "@mikro-orm/knex": "6.4.3",
     "@mikro-orm/migrations": "6.4.3",
@@ -55,6 +59,7 @@
     "vite": "^5.2.11",
     "yalc": "^1.0.0-pre.53"
   },
+  "packageManager": "pnpm@10.15.1",
   "engines": {
     "node": ">=20"
   }
