@@ -25,5 +25,15 @@
         "noBarrelFile": "off"
       }
     }
+  },
+  "files": {
+    "includes": [
+      "!node_modules",
+      "!**/.next",
+      "!**/dist",
+      "!**/.turbo",
+      "!**/.vscode",
+      "!*.config.*"
+    ]
   }
 }
